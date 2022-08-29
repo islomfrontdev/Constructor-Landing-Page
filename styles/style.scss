@@ -1,0 +1,46 @@
+@import "./variables";
+@import "./header";
+@import "./main_section";
+@import "./media";
+@import "./team_section";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Barlow", sans-serif;
+}
+.btn_orange {
+  background-color: $orange_color;
+  color: $white_color;
+}
+.suptitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: $orange_color;
+}
+.second_title {
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 62px;
+  color: $title_color;
+}
+.second_prg {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: $prg_color;
+}
+.section_btn {
+  background-color: transparent;
+  border: 2px solid $title_color;
+  padding: 7px 10px;
+  a {
+    text-decoration: none;
+    color: $title_color;
+  }
+}
