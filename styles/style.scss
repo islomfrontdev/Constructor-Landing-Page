@@ -3,6 +3,7 @@
 @import "./main_section";
 @import "./media";
 @import "./team_section";
+@import "./section_five";
 * {
   margin: 0;
   padding: 0;
@@ -11,9 +12,16 @@
   text-decoration: none;
   font-family: "Barlow", sans-serif;
 }
+body {
+  overflow-x: hidden;
+}
 .btn_orange {
   background-color: $orange_color;
   color: $white_color;
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
 }
 .suptitle {
   font-weight: 400;
@@ -42,5 +50,14 @@
   a {
     text-decoration: none;
     color: $title_color;
+  }
+}
+.square {
+  width: 20px;
+  height: 20px;
+}
+.list {
+  i {
+    color: $orange_color;
   }
 }

@@ -47,13 +47,13 @@ header nav ul li a {
   .main_prg {
     font-size: 16px !important;
   }
-}
-
-@media screen and (max-width: 600px) {
   .second_title {
     font-size: 40px !important;
     line-height: 50px !important;
   }
+}
+
+@media screen and (max-width: 600px) {
   .suptitle {
     margin-top: 30px;
   }
@@ -76,25 +76,32 @@ header nav ul li a {
   }
 }
 
-.team_section .statistic_box {
+.statistic_box {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.team_section .statistic_box p {
+.statistic_box p {
   color: #605e5d;
 }
 
-.team_section .statistic_box h2 {
+.statistic_box h2 {
   font-weight: 400;
   font-size: 72px;
   line-height: 84px;
   color: #191919;
 }
 
-.team_section .statistic_box h2 span {
+.statistic_box h2 span {
   color: #ff4d01;
+}
+
+.section_five {
+  background-image: url(../img/setion5_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
 * {
@@ -106,9 +113,18 @@ header nav ul li a {
   font-family: "Barlow", sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .btn_orange {
   background-color: #ff4d01;
   color: #fff;
+}
+
+.btn_orange a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .suptitle {
@@ -143,5 +159,14 @@ header nav ul li a {
 .section_btn a {
   text-decoration: none;
   color: #191919;
+}
+
+.square {
+  width: 20px;
+  height: 20px;
+}
+
+.list i {
+  color: #ff4d01;
 }
 /*# sourceMappingURL=style.css.map */
